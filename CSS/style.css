@@ -1,0 +1,91 @@
+/* FUENTE PARA TITULO H1 */
+@import url('https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+/* FUENTE PARA BOTONES */
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+body{
+    text-align: center;
+    align-items: center;
+    background-color: white;
+}
+header{
+    padding: 20px;
+}
+h1{
+    font-family: "Philosopher", sans-serif;
+    font-size: 30pt;
+    color: rgb(104, 135, 214);
+}
+.contenedor {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 98%;
+    margin: 0 auto;
+}
+article{
+    width: 25%;
+    height: 400px;
+    background-color: white;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+article:hover{
+    transform: scale(1.1);
+    .nombre{
+        visibility: visible;
+    }
+    button{
+        visibility: visible;
+    }
+}
+button:hover{
+    border: 1px solid rgb(116, 150, 237);
+    color: rgb(116, 150, 237);
+}
+.uno{
+    margin-top: 0px;
+    height: 15%;
+    background-image: url(https://i.pinimg.com/originals/99/cd/09/99cd0925c516b5d0a740dffd03c3e0df.gif);
+    background-size: cover;
+}
+.dos{
+    margin-top: 0px;
+    height: 15%;
+    background-image: url(https://i.pinimg.com/originals/86/d7/5a/86d75a902dda5a4c6ac4b95d8a5afba4.gif);
+    background-size: cover;
+}
+.tres{
+    margin-top: 0px;
+    height: 15%;
+    background-image: url(https://i.pinimg.com/564x/a2/95/16/a2951652cffcba42fe8b6d010d9e5dd0.jpg);
+    background-size: cover;
+}
+.cuatro{
+    margin-top: 0px;
+    height: 15%;
+    background-image: url(https://i.pinimg.com/originals/15/e4/6b/15e46bd795e8c3d5efdbf0472a4c6e58.gif);
+    background-size: cover;
+}
+.letra{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 34pt;
+    color: rgb(116, 150, 237)
+}
+.nombre{
+    visibility: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14pt;
+    color: rgb(116, 150, 237)
+}
+button{
+    width: 130px;
+    height: 35px;
+    font-family: "Rajdhani", sans-serif;
+    font-size: 12pt;
+    background-color: white;
+    color: rgb(191, 191, 191);
+    margin-top: 90px;
+    border: 1.2px solid rgb(172, 172, 172);
+    border-radius: 8px;
+    visibility: hidden;
+}
